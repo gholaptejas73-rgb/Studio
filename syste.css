@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav a{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10rem;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+.navbar{
+    width: 100%;
+    height: 6rem;
+}
+
+.navbar-brand{
+    padding: 7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#hero {
+    background-image: url("https://images.pexels.com/photos/4043588/pexels-photo-4043588.jpeg");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#hero div {
+    background-color: rgba(133, 153, 173, 0.622);
+    color: black;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+
+
+#hero div button {
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+}
+
+/* FONT COLOURER */
+#Services h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+h6 {
+    font-style: italic;
+    color: rgb(156, 151, 151);
+}
+
+Services .Services-info {
+    padding: 5rem;
+}
+
+.Services-info h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Services-info img {
+
+    height: 20vh;
+}
+
+#Portfolio {
+    background-color: rgb(228, 228, 228);
+
+}
+
+#Portfolio h1 {
+    text-transform: uppercase;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.card {
+    height: 60vh;
+    margin: 4rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#about {
+    background-color: white;
+}
+
+.about-logo {
+    height: 25vh;
+}
+
+.about-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team {
+    background-color: rgb(228, 228, 228);
+
+}
+
+#team h2 {
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+#team i {
+    font-size: 2.5rem;
+}
+
+.team-img {
+    height: 40vh;
+    border-radius: 20rem;
+}
+
+#contact {
+    background-image: url("https://media.istockphoto.com/id/2219832829/photo/4k-technologic-network-world-map-4k-photo.jpg?s=1024x1024&w=is&k=20&c=p1eLMux8S5GZ2dqT4q3yJ-GTSze6Gf2UI_z-laHnHTA=");
+    background-position: center;
+    background-size: cover;
+}
+
+#contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
