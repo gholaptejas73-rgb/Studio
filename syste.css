@@ -114,8 +114,10 @@ Services .Services-info {
     background-color: white;
 }
 
+
 .about-logo {
     height: 25vh;
+    border-radius: 50rem;
 }
 
 .about-intro {
@@ -160,4 +162,12 @@ Services .Services-info {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width:769px) {
+    
+    
+}
+@media screen  and (max-width:426px){
+   
 }
