@@ -144,6 +144,9 @@ Services .Services-info {
     height: 40vh;
     border-radius: 20rem;
 }
+.company{
+    color: rgb(166, 168, 169);
+}
 
 #contact {
     background-image: url("https://media.istockphoto.com/id/2219832829/photo/4k-technologic-network-world-map-4k-photo.jpg?s=1024x1024&w=is&k=20&c=p1eLMux8S5GZ2dqT4q3yJ-GTSze6Gf2UI_z-laHnHTA=");
@@ -151,13 +154,26 @@ Services .Services-info {
     background-size: cover;
 }
 
-#contact form{
+#contact .card{
+    background-color: rgba(31, 31, 30, 0.381);
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+}
+#contact .contact-input{
+padding: 1rem;
+    text-transform: uppercase;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    text-align: center;
 }
+
+#contact input{
+    margin: 1rem;
+}
+
 #footer{
     background-color: black;
     color: white;
